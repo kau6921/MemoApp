@@ -1,7 +1,8 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import AppBar from './src/components/AppBar';
-import MemoListScreen from './src/screens/MemoListScreen';
+
+import MemoDetailScreen from './src/screens/MemoDetailScreen';
 
 
 export default class App extends React.Component {
@@ -10,7 +11,8 @@ export default class App extends React.Component {
       <View style={styles.container}>
 
         <AppBar />
-        <MemoListScreen />
+
+        <MemoDetailScreen />
 
       </View>
     );
